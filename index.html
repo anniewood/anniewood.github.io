@@ -1,36 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="icon" href="">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <title>Annie Wood</title>
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="jumbotron-narrow.css" rel="stylesheet">
+    <link href="css/landing-page.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://www.nandangonline.web.id/assets/custom.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
-    <link rel='shortcut icon' href='img/favicon-film.ico'>
+    <link rel="shortcut icon" href="img/favicon-film.ico" type="image/x-icon">
+</head>
 
-  </head>
-  <body>
-<div class="jumbotron text-center">
-  <h1>Annie Wood</h1>
-  <p>Portfolio</p>
-</div>
-<div class="container">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+<body>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#">AnnieWood.Space</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#showreel">Showreel</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+    <a name="#"></a>
+    <div class="intro-header">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Annie Wood</h1>
+                        <h3>videographer</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <a href="https://www.youtube.com/channel/UCQCEw1mBHJ7dEuCGAAhPsUA" class="btn btn-default btn-lg"><i class="fa fa-youtube-play fa-fw"></i> <span class="network-name">Youtube</span></a>
+                            </li>
+                            <li>
+                                <a href="https://www.flickr.com/photos/138179189@N08/" class="btn btn-default btn-lg"><i class="fa fa-flickr fa-fw"></i> <span class="network-name">Flickr</span></a>
+                            </li>
+                            <li>
+                                <a href="https://vimeo.com/bzyg7b/videos" class="btn btn-default btn-lg"><i class="fa fa-vimeo fa-fw"></i> <span class="network-name">Vimeo</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .Showreel -->
+    <br>
+        <a  name="showreel"></a>
+        <br><br>
+    <h1 align="center">Showreel</h1>
+        <div class="embed-responsive embed-responsive-16by9">
+        <iframe src="https://www.youtube.com/embed/mbSMfGzlAAE?controls=0&showinfo=0&rel=0&loop=1"></iframe>
+         </div>
+    <!-- /.Showreel -->
+
+    <!-- .work -->
+<br>
+
+        <a  name="work"></a>
+        <br><br>
+    <h1 align="center">Work</h1>
+
+    <div class="container">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false">
         <div class="carousel-inner">
             <div class="item active">
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/Jkeib1msw0w?controls=0&showinfo=0&rel=0&loop=1" frameborder="0" allowfullscreen></iframe>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/7C13Jo6pnpw?controls=0&showinfo=0&rel=0&loop=1" frameborder="0" allowfullscreen></iframe>
             <div class="carousel-caption"></div>
             </div>
             <!-- O -->
             <div class="item">
-            <iframe width="1280" height="720" src="https://www.youtube.com/embed/7C13Jo6pnpw?controls=0&showinfo=0&rel=0&loop=1" frameborder="0" allowfullscreen></iframe>
+            <iframe width="1280" height="720" src="https://www.youtube.com/embed/ofrVK6feUDw&t?controls=0&showinfo=0&rel=0&loop=1" frameborder="0" allowfullscreen></iframe>
             <div class="carousel-caption"></div>
             </div>
             <!-- O -->
@@ -47,18 +119,44 @@
         </div>
         <ul class="nav nav-pills nav-justified">
             <li data-target="#myCarousel" data-slide-to="0" class="active"><a href="#">Urban Exploration<small>Student Documentary</small></a></li>
-            <li data-target="#myCarousel" data-slide-to="1"><a href="#">Urban Exploration<small>North Wales</small></a></li>
+            <li data-target="#myCarousel" data-slide-to="1"><a href="#">Leon<small>North Wales</small></a></li>
             <li data-target="#myCarousel" data-slide-to="2"><a href="#">// BIRTHDAY // PARTY //<small>Published on Nov 30, 2015</small></a></li>
             <li data-target="#myCarousel" data-slide-to="3"><a href="#">Money For Nothing<small>Dire Straits</small></a></li>
         </ul>
     </div>
 </div>
+    <!-- /.work -->
 
-<br><br><br><br>
-<div class = "navbar navbar-fixed-bottom"><div><p class = "navbar-text">&copy; 2016 Annie</p></div>   
 
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#showreel">Showreel</a>
+                        </li>
+                        <li class="footer-menu-divider">&sdot;</li>
+                        <li>
+                            <a href="#work">Work</a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted small">Copyright &copy; Annie Wood 2017. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/carousel.js"></script>
-  </body>
+</body>
 </html>
